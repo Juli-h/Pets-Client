@@ -141,8 +141,8 @@ const EditPet = (props) => {
                                 </div>}
 
                             <div className="d-flex justify-content-center">
-                                <button className="btn btn-dark rounded-pill mt-2 btn-lg" type="submit" >Edit</button>
-                                <button className="btn btn btn-danger btn-lg p-2 mt-2 rounded-pill" type="submit" onClick={async e => await removePet(e.target.value)}>Delete</button>
+                                <button className="btn btn btn-danger btn-lg p-2 mt-2 rounded-pill me-5" type="submit" onClick={async e => await removePet(e.target.value)}>Delete Pet</button>
+                                <button className="btn btn-dark rounded-pill mt-2 btn-lg ms-5" type="submit" >Edit</button>
                             </div>
                         </div>
                     </form>
